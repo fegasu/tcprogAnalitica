@@ -4,8 +4,8 @@
 <li>TECNICO PROGRAMACION PARA ANALITICA DE DATOS 228117</li>
 <li>INSTRUCTOR AUTOR: JOSE FERNANDO GALINDO SUAREZ jgalindos@sena.edu.co 2023</li>
 <hr>
-<li><a href="https://drive.google.com/file/d/11rW7SvwFMTOOEitF0ZGdnkeWDDh6WH1A/view?usp=share_link">SELECCIONA LA MUESTRA PARA ANALITICA DE DATOS</a></li>
-<li><a href="https://drive.google.com/file/d/1_tQyWw96DumafWJ4EvPl7CaOvERY86eO/view?usp=share_link">ESTADISTICA</a></li>
-<li><a href="https://drive.google.com/file/d/1q4ov6y3-tydFmqN538LEWtS-bCvJLtDz/view?usp=share_link">IDENTIFICAR DATOS RELEVANTES EN EL PROCESO DE ANALÍTICA DE DATOS</a></li>
-<li><a href="https://drive.google.com/file/d/12HHC-dtVTfVuu5YZm8iMb0DuTX7tJwjU/view?usp=share_link">MANIPULAR LA HERRAMIENTA INFORMATICA SELECCIONADA</a></li>
+<li><a href="https://drive.google.com/file/d/11rW7SvwFMTOOEitF0ZGdnkeWDDh6WH1A/view?usp=share_link" target="_blank">SELECCIONA LA MUESTRA PARA ANALITICA DE DATOS</a></li>
+<li><a href="https://drive.google.com/file/d/1_tQyWw96DumafWJ4EvPl7CaOvERY86eO/view?usp=share_link" target="_blank">ESTADISTICA</a></li>
+<li><a href="https://drive.google.com/file/d/1q4ov6y3-tydFmqN538LEWtS-bCvJLtDz/view?usp=share_link" target="_blank">IDENTIFICAR DATOS RELEVANTES EN EL PROCESO DE ANALÍTICA DE DATOS</a></li>
+<li><a href="https://drive.google.com/file/d/12HHC-dtVTfVuu5YZm8iMb0DuTX7tJwjU/view?usp=share_link" target="_blank">MANIPULAR LA HERRAMIENTA INFORMATICA SELECCIONADA</a></li>
 </ul>
