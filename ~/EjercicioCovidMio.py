@@ -37,8 +37,13 @@ DM_FECHA.to_csv(ruta+'DM_FECHA.csv')
 
 DM_DEPARTAMENTO=pd.DataFrame(data['Departamento o Distrito '])
 DM_DEPARTAMENTO.drop_duplicates(inplace=True)
-DM_DEPARTAMENTO['IDDPTO']=data['Código DIVIPOLA']//1000
+
 DM_DEPARTAMENTO.columns=DM_DEPARTAMENTO.columns.str.replace('Departamento o Distrito ','NOMBRE')
+DM_DEPARTAMENTO['IDDPTO']=data['Código DIVIPOLA']//1000
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Barranquilla D.E.','IDDPTO']=810
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Cartagena D.T. y C.','IDDPTO']=131
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Santa Marta D.T. y C.','IDDPTO']=471
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Buenaventura D.E.','IDDPTO']=761
 DM_DEPARTAMENTO.set_index('IDDPTO',inplace=True)
 DM_DEPARTAMENTO.to_csv(ruta+'DM_DEPARTAMENTO.csv')
 
@@ -121,6 +126,10 @@ for idfecha,fecha in zip(z1,z2):
     data['Fecha']=data.Fecha.str.replace(fecha,str(idfecha),regex=False)
 
 data.columns=data.columns.str.replace('Fecha','IDFECHA')
+#data.drop('Fecha',axis=1,inplace=True)
+rangos=[0,5,10,18,50,100,110]
+nombrer=['A','B','C','D','E','F']
+data['GEDAD']=pd.cut(data['Edad'],rangos,labels=nombrer)
 
 data['ID']=range(1,len(data)+1)    
 data.set_index("ID",inplace=True)
