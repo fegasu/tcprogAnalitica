@@ -121,7 +121,6 @@ for idfecha,fecha in zip(z1,z2):
     data['Fecha']=data.Fecha.str.replace(fecha,str(idfecha),regex=False)
 
 data.columns=data.columns.str.replace('Fecha','IDFECHA')
-#data.drop('Fecha',axis=1,inplace=True)
 
 data['ID']=range(1,len(data)+1)    
 data.set_index("ID",inplace=True)
