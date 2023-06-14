@@ -28,6 +28,18 @@ nombrer=['A','B','C','D','E','F']
 data['GEDAD']=pd.cut(data['ESTU_EDAD'],rangos,labels=nombrer)
 data['ID']=range(1,len(data)+1)
 data.set_index('ID',inplace=True)
-data.to_csv(ruta+"Datos.csv")
+
+
+#convirtiendo columna a valores enteros
+data['ESTU_NACIMIENTO_ANNO'].fillna(0,inplace=True)
+data['ESTU_NACIMIENTO_ANNO']=data['ESTU_NACIMIENTO_ANNO'].astype('int')
+
+data['ESTU_NACIMIENTO_MES'].fillna(0,inplace=True)
+data['ESTU_NACIMIENTO_MES']=data['ESTU_NACIMIENTO_MES'].astype('int')
+
+data['ESTU_NACIMIENTO_DIA'].fillna(0,inplace=True)
+data['ESTU_NACIMIENTO_DIA']=data['ESTU_NACIMIENTO_DIA'].astype('int')
+
+data.to_csv(ruta+"Datos.csv",index=False)
 data1=data[data['GEDAD']=='A'].sort_values('ESTU_EDAD')
 
