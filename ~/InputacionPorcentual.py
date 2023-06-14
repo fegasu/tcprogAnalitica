@@ -7,7 +7,6 @@ Created on Fri Jun  9 20:14:05 2023
 
 
 import pandas as pd
-import plotly.express as px
 
 ruta="c:/Borrar/"
 data=pd.read_csv(ruta+'SB11-20121-RGSTRO-CLFCCN-V1-0-txt-csv.csv',low_memory=False)
