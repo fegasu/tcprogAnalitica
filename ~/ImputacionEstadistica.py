@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 14 14:00:28 2023
 
-@author: Administrador
+@author: Jose Fernando Galindo Suarez
 """
 
 import pandas as pd
