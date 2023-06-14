@@ -49,7 +49,14 @@ data['ESTU_NACIMIENTO_DIA']=data['ESTU_NACIMIENTO_DIA'].astype('int')
 data1=data[data['ESTU_TIPO_DOCUMENTO'].isna()] #sin tipo de documento
 data.to_csv(ruta+"SB11 20121.csv",index=False)
 print(data.isna().sum()/data.shape[0]*100)
+data['LIMITA']=0
+
+dataM=data[data['ESTU_LIMITA_MOTRIZ']=='M']
+#data['ESTU_LIMITA_MOTRIZ'].fillna(0,inplace=True)
+data.loc[data['ESTU_LIMITA_MOTRIZ']=='M','LIMITA']=data['LIMITA']|8
 
 
+dataM['LIMITA']=dataM['LIMITA']|8
 
+    
 
