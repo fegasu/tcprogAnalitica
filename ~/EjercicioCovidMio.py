@@ -2,7 +2,8 @@
 """
 Created on Tue Jun  6 13:59:07 2023
 
-@author: Administrador
+@author: Jose Fernando Galindo Suarez
+@email: jgalindos@sena.edu.co
 """
 
 import pandas as pd
@@ -40,10 +41,10 @@ DM_DEPARTAMENTO.drop_duplicates(inplace=True)
 
 DM_DEPARTAMENTO.columns=DM_DEPARTAMENTO.columns.str.replace('Departamento o Distrito ','NOMBRE')
 DM_DEPARTAMENTO['IDDPTO']=data['Código DIVIPOLA']//1000
-DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Barranquilla D.E.','IDDPTO']=810
-DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Cartagena D.T. y C.','IDDPTO']=131
-DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Santa Marta D.T. y C.','IDDPTO']=471
-DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Buenaventura D.E.','IDDPTO']=761
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Barranquilla D.E.','IDDPTO']=8001
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Cartagena D.T. y C.','IDDPTO']=13001
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Santa Marta D.T. y C.','IDDPTO']=47001
+DM_DEPARTAMENTO.loc[DM_DEPARTAMENTO['NOMBRE']=='Buenaventura D.E.','IDDPTO']=76109
 DM_DEPARTAMENTO.set_index('IDDPTO',inplace=True)
 DM_DEPARTAMENTO.to_csv(ruta+'DM_DEPARTAMENTO.csv')
 
