@@ -11,7 +11,7 @@ import pandas as pd
 ruta="c:/Borrar/"
 data=pd.read_csv(ruta+'SB11-20121-RGSTRO-CLFCCN-V1-0-txt-csv.csv',low_memory=False)
 print(data.shape)
-data.info()
+#data.info()
 
 promedio=data['ESTU_NACIMIENTO_ANNO'].mean()
 promedio=promedio.astype('int')
@@ -46,8 +46,9 @@ data['ESTU_NACIMIENTO_MES']=data['ESTU_NACIMIENTO_MES'].astype('int')
 data['ESTU_NACIMIENTO_DIA'].fillna(0,inplace=True)
 data['ESTU_NACIMIENTO_DIA']=data['ESTU_NACIMIENTO_DIA'].astype('int')
 
-
-data.to_csv(ruta+"SB11 20121.csv",index=False)
+data1=data[data['ESTU_TIPO_DOCUMENTO'].isna()] #sin tipo de documento
+#data.to_csv(ruta+"SB11 20121.csv",index=False)
+print(data.isna().sum()/data.shape[0]*100)
 
 
 
