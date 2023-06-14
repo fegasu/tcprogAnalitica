@@ -2,7 +2,8 @@
 """
 Created on Fri Jun  2 11:06:40 2023
 
-@author: Administrador
+@author: Jose Fernando Galindo Suarez
+@email: jgalindos@sena.edu.co
 """
 
 
