@@ -3,6 +3,7 @@
 Created on Wed Jun 14 14:00:28 2023
 
 @author: Jose Fernando Galindo Suarez
+@email: jgalindos@sena.edu.co
 """
 
 import pandas as pd
