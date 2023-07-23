@@ -74,7 +74,36 @@ border: 1px solid #000000;
 background-color: white;
 vertical-align: middle;;
 }
-button.bt1 select.bt1{ -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+.a1{
+    cursor:pointer;    
+    background: url("https://up9bp0pfq2ue4kizq9zseg.on.drv.tw/ovas/css/bt1.jpg") no-repeat right center;  
+     text-align: left;
+     text-align: left;
+  width: 90%;
+  text-align:  left;
+  height: 40px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  #padding: 10px 10px 10px 10px;
+  # padding: 10px 0;
+  
+   margin:10,10,10,10;
+   border:10,10,10,10;
+   width:100%;
+   
+   border-radius: 15px 10px 10px 15px;
+  -moz-border-radius: 15px 10px 10px 15px;
+  -webkit-border-radius: 15px 10px 10px 15px;
+  border: 1px solid #000000;
+  background-color: white;
+  vertical-align: middle;;
+  }
+  button.bt1 select.bt1{ -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 button.bt1:hover{
@@ -83,9 +112,6 @@ box-shadow: 0 0 40px 40px #e74c3c inset;
 .bt:hover{
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     font-size: 10pt;
-}
-.a{
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 .btn-red-tr, .btn-green-tr, .btn-blue-tr {
 min-width: 130px;
