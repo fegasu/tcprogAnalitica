@@ -1,4 +1,6 @@
 #*************************************************************************************************
+#* TECNICO PROGRAMACION PARA ANALITICA DE DATOS
+#* CENTRO DE GESTION DE MERCADOS, LOGISTICA Y TECNOLOGIAS DE LA INFORMACION
 #* PROPOSITO: LIMPIEZA DE DATOS DEL DATASET COVID19
 #* AUTOR: JOSE FERNANDO GALINDO SUAREZ
 #* EMAIL: jgalindos@sena.edu.co
