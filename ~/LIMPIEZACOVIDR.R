@@ -1,3 +1,9 @@
+#*************************************************************************************************
+#* PROPOSITO: LIMPIEZA DE DATOS DEL DATASET COVID19
+#* AUTOR: JOSE FERNANDO GALINDO SUAREZ
+#* EMAIL: jgalindos@sena.edu.co
+#*************************************************************************************************
+
 COVID19<-read.csv("https://siomi.datasena.com/analitica/data/COVID19.csv", sep=",", header = TRUE, encoding = "UTF-8")
 COVID=COVID19
 COVID19<-COVID
