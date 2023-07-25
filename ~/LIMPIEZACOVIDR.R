@@ -44,6 +44,7 @@ COVID19<-merge(COVID19,DM_PAIS,by.x = "PAIS",by.y = "NOMBRE",all.x = TRUE)
 #ORDENA LAS COLUMNAS
 COVID19 <- COVID19 [, c (2:12)]
 
+#****CRECION DE LA DIMENSION ESTADO ************
 DM_ESTADO<-COVID19[,c(10,10)]
 DM_ESTADO<-DM_ESTADO[!duplicated(DM_ESTADO), ]
 colnames(DM_ESTADO)[1]<-'IDESTADO'
@@ -55,6 +56,7 @@ write.csv(DM_ESTADO,'c:/Borrar/DM_ESTADO.csv', fileEncoding = "UTF-8",row.names 
 COVID19<-merge(COVID19,DM_ESTADO,by.x = "Estado",by.y = "NOMBRE",all.x = TRUE)
 COVID19 <- COVID19 [, c (2:12)]
 
+#****CRECION DE LA DIMENSION TIPO ************
 DM_TIPO<-COVID19[,c(9,9)]
 DM_TIPO<-DM_TIPO[!duplicated(DM_TIPO), ]
 colnames(DM_TIPO)[1]<-'IDTIPO'
@@ -65,6 +67,7 @@ write.csv(DM_ESTADO,'c:/Borrar/DM_ESTADO.csv', fileEncoding = "UTF-8",row.names 
 COVID19<-merge(COVID19,DM_TIPO,by.x = "Tipo",by.y = "NOMBRE",all.x = TRUE)
 COVID19 <- COVID19 [, c (2:12)]
 
+#****CRECION DE LA DIMENSION ATENCION ************
 DM_ATENCION<-COVID19[,c(6,6)]
 DM_ATENCION<-DM_ATENCION[!duplicated(DM_ATENCION), ]
 colnames(DM_ATENCION)[1]<-'IDATENCION'
@@ -80,6 +83,7 @@ colnames(COVID19)[3]<-'IDCIUDAD'
 colnames(COVID19)[2]<-'FECHA'
 COVID19$IDDPTO<-as.integer(COVID19$IDCIUDAD/1000)
 
+#****CRECION DE LA DIMENSION CIUDAD ************
 DM_CIUDAD<-COVID19[,c(3,4)]
 DM_CIUDAD<-DM_CIUDAD[!duplicated(DM_CIUDAD), ]
 colnames(DM_CIUDAD)[1]<-'IDCIUDAD'
@@ -88,6 +92,7 @@ write.csv(DM_CIUDAD,'c:/Borrar/DM_CIUDAD.csv', fileEncoding = "UTF-8",row.names 
 COVID19<-COVID19[,-c(4)]
 COVID19 <- COVID19 [, c (2:11,1)]
 
+#****CRECION DE LA DIMENSION DEPARTAMENTO ************
 DM_DEPARTAMENTO<-COVID19[,c(10,3)]
 DM_DEPARTAMENTO<-DM_DEPARTAMENTO[!duplicated(DM_DEPARTAMENTO), ]
 colnames(DM_DEPARTAMENTO)[1]<-'IDDPTO'
@@ -105,5 +110,6 @@ write.csv(DM_FECHA,'c:/Borrar/DM_FECHA.csv', fileEncoding = "UTF-8",row.names = 
 COVID19<-merge(COVID19,DM_FECHA,by.x = "FECHA",by.y = "NOMBRE",all.x = TRUE)
 COVID19 <- COVID19 [, c (10:11,2:9)]
 COVID19 <- COVID19 [, c (1:3,10,4:9)]
+
 write.csv(COVID19,'c:/Borrar/THCOVID19.csv', fileEncoding = "UTF-8",row.names = FALSE)
 
