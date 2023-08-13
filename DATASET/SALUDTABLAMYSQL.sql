@@ -206,7 +206,7 @@ INSERT INTO persona VALUES (86050207,1,'JHON','GOMEZ',STR_TO_DATE('08/03/1976','
 
 CREATE TABLE historialpersona
 (
-idhistorialpersona INT primary key auto_increment,
+idhistorialpersona INT primary key auto_increment, 
 idpersona INT NOT NULL,
 fechaingreso date NOT NULL,
 fecharetiro date NULL,
