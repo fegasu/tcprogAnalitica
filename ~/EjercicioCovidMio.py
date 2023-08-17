@@ -19,7 +19,7 @@ DM_ESTADO.drop_duplicates(inplace=True)
 DM_ESTADO['IDESTADO']=range(1, len(DM_ESTADO) + 1)
 DM_ESTADO.set_index('IDESTADO', inplace=True)
 DM_ESTADO=DM_ESTADO.fillna('NA')
-DM_ESTADO.to_csv(ruta+'DM_ESTADO.csv',)
+DM_ESTADO.to_csv(ruta+'DM_ESTADO.csv')
 
 data['Tipo']=data['Tipo'].str.replace('relacionado','Relacionado',regex=False)
 data['Tipo']=data['Tipo'].str.replace('RELACIONADO','Relacionado',regex=False)
