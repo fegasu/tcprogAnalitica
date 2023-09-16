@@ -5,3 +5,8 @@ docker run -d -p 1521:1521 -e ORACLE_PASSWORD=root gvenzl/oracle-xe
 docker exec -it 6f4f0a1c1e bash
 
 sqlplus system/root
+
+CREATE USER HR IDENTIFIED BY "HR"
+QUOTA UNLIMITED ON USERS;
+
+GRANT CONNECT, RESOURCE TO HR;
