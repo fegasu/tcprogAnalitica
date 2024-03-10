@@ -17,5 +17,4 @@
 <li><a href="https://drive.google.com/file/d/1wL6xNDM0HrNTlK3YJvYctV-5x9ZZeqe3/view?usp=sharing" targe="xxx">FUNDAMENTOS DE PROGRAMACION EN PYTHON</a></li>
 <li><a href="https://drive.google.com/file/d/18t2xflqIQiK3g0pLE0EhBD_uRvPi9_Xr/view?usp=sharing" targe="xxx">FUNCIONES EN PYTHON</a></li>
 <li><a href="https://www.youtube.com/embed/yNvy1dx_KbU" targe="xxx">CONSULTAS SQL</a></li>
-
 </ul>
