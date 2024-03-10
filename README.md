@@ -19,4 +19,5 @@
 <li><a href="https://drive.google.com/file/d/1ADTlnLjwlNILdJb_kMi_leDIbOTWpcTJ/view?usp=sharing" targe="xxx">CONTROL DE FLUJO</a></li>
 <li><a href="https://drive.google.com/file/d/1RuNb3ZfqE8HQ6R8_vXWLO5GuMVxuZ5xC/view" targe="xxx">ARREGLOS Y ESTRUCTURAS</a></li>
 <li><a href="https://drive.google.com/file/d/1rwXHszSQlDG0u2bNnxaQxnX1lL2BGuHS/view?usp=sharing" targe="xxx">TALLER NEPTUNO</a></li>
+<li><a href="https://drive.google.com/file/d/14XIGBLMQ2f1WuDAAg-6ZugUelMykw1W2/view" targe="xxx">NUMPY</a></li>
 </ul>
