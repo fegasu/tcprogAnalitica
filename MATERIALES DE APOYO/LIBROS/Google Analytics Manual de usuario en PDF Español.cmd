@@ -1,1 +1,0 @@
-start chrome http://www.thatzad.com/assets/pdf/manual_google_analytics.pdf
