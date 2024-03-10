@@ -16,7 +16,6 @@
 <li><a href="https://www.youtube.com/embed/YPofXmlFabg" targe="xxx">TECNICO EN PROGRAMACION PARA ANALITICA DE DATOS</a></li>
 <li><a href="https://drive.google.com/file/d/1wL6xNDM0HrNTlK3YJvYctV-5x9ZZeqe3/view?usp=sharing" targe="xxx">FUNDAMENTOS DE PROGRAMACION EN PYTHON</a></li>
 <li><a href="https://drive.google.com/file/d/18t2xflqIQiK3g0pLE0EhBD_uRvPi9_Xr/view?usp=sharing" targe="xxx">FUNCIONES EN PYTHON</a></li>
-<li><a href="https://github.com/fegasu/tcprogAnalitica" targe="xxx">ANALITICA</a></li>
 <li><a href="https://drive.google.com/file/d/1ADTlnLjwlNILdJb_kMi_leDIbOTWpcTJ/view?usp=sharing" targe="xxx">CONTROL DE FLUJO</a></li>
 <li><a href="https://drive.google.com/file/d/1RuNb3ZfqE8HQ6R8_vXWLO5GuMVxuZ5xC/view" targe="xxx">ARREGLOS Y ESTRUCTURAS</a></li>
 <li><a href="https://drive.google.com/file/d/1rwXHszSQlDG0u2bNnxaQxnX1lL2BGuHS/view?usp=sharing" targe="xxx">TALLER NEPTUNO</a></li>
