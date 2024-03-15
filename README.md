@@ -18,7 +18,7 @@
 <li><a href="https://drive.google.com/file/d/18t2xflqIQiK3g0pLE0EhBD_uRvPi9_Xr/view?usp=sharing" targe="xxx">FUNCIONES EN PYTHON</a></li>
 <li><a href="https://drive.google.com/file/d/1ADTlnLjwlNILdJb_kMi_leDIbOTWpcTJ/view?usp=sharing" targe="xxx">CONTROL DE FLUJO</a></li>
 <li><a href="https://drive.google.com/file/d/1RuNb3ZfqE8HQ6R8_vXWLO5GuMVxuZ5xC/view" targe="xxx">ARREGLOS Y ESTRUCTURAS</a></li>
-<li><a href="https://drive.google.com/file/d/1rwXHszSQlDG0u2bNnxaQxnX1lL2BGuHS/view?usp=sharing" targe="xxx">TALLER NEPTUNO</a></li>
+<li><a href="https://drive.google.com/file/d/1eXRbJWvOsFc6Hr-Wmz4RwBHyDy-BdLP_/view?usp=drive_link" targe="xxx">TALLER COVID19</a></li>
 <li><a href="https://drive.google.com/file/d/14XIGBLMQ2f1WuDAAg-6ZugUelMykw1W2/view" targe="xxx">NUMPY</a></li>
 <hr><b>LECTURAS RECOMENDABLES</B><hr>
 <li><a href="https://ellibrodepython.com/" targe="xxx">EL LIBRO DE PYTHON</a></li>
