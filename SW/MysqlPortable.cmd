@@ -1,1 +1,0 @@
-start chrome https://sourceforge.net/projects/mysql-server-portable/files/latest/download

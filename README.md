@@ -12,11 +12,14 @@
 <li><a class="a1" href="https://drive.google.com/file/d/1LaQabxzTFofB6fBY3hNsYCMUr6PodXdy/view?usp=sharing" targe="xxx">IDENTIFICAR DATOS RELEVANTES EN EL PROCESO DE ANALÍTICA DE DATOS</a></li>
 <li><a href="https://drive.google.com/file/d/1q7p6H6p0b2qGBzMiB01tSVIsbx7rAzJ_/view?usp=drive_link" targe="xxx">MANIPULAR LA HERRAMIENTA INFORMATICA SELECCIONADA</a></li>
 <li><a href="https://drive.google.com/file/d/18ZZ6S_Bzv6fZ4Azpc1ADcv7cTnGYcLJN/view?usp=sharing" id="a1" targe="_blank">VALIDA LA DATA DE ACUERDO CON EL PROCESO ANÁLISIS DE EXPLORACIÓN DE DATOS*</a></li>
-<hr><b>VIDEOS RECOMENDADOS</B><hr>
+<hr><b>TALLERES</B><hr>
 <li><a href="https://www.youtube.com/embed/YPofXmlFabg" targe="xxx">TECNICO EN PROGRAMACION PARA ANALITICA DE DATOS</a></li>
-<li><a href="https://www.youtube.com/embed/Ih7CYH73mrM" targe="xxx">Caso de estudio: Import Tech</a></li>
-<li><a href="https://www.youtube.com/embed/m-GvcEHn4R4" targe="xxx">¿Cómo nace el modelo relacional?
-</a></li>
-<li><a href="https://www.youtube.com/embed/yNvy1dx_KbU" targe="xxx">CONSULTAS SQL</a></li>
-
+<li><a href="https://drive.google.com/file/d/1wL6xNDM0HrNTlK3YJvYctV-5x9ZZeqe3/view?usp=sharing" targe="xxx">FUNDAMENTOS DE PROGRAMACION EN PYTHON</a></li>
+<li><a href="https://drive.google.com/file/d/18t2xflqIQiK3g0pLE0EhBD_uRvPi9_Xr/view?usp=sharing" targe="xxx">FUNCIONES EN PYTHON</a></li>
+<li><a href="https://drive.google.com/file/d/1ADTlnLjwlNILdJb_kMi_leDIbOTWpcTJ/view?usp=sharing" targe="xxx">CONTROL DE FLUJO</a></li>
+<li><a href="https://drive.google.com/file/d/1RuNb3ZfqE8HQ6R8_vXWLO5GuMVxuZ5xC/view" targe="xxx">ARREGLOS Y ESTRUCTURAS</a></li>
+<li><a href="https://drive.google.com/file/d/1eXRbJWvOsFc6Hr-Wmz4RwBHyDy-BdLP_/view?usp=drive_link" targe="xxx">TALLER COVID19</a></li>
+<li><a href="https://drive.google.com/file/d/14XIGBLMQ2f1WuDAAg-6ZugUelMykw1W2/view" targe="xxx">NUMPY</a></li>
+<hr><b>LECTURAS RECOMENDABLES</B><hr>
+<li><a href="https://ellibrodepython.com/" targe="xxx">EL LIBRO DE PYTHON</a></li>
 </ul>
