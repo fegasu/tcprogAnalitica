@@ -9,8 +9,8 @@
 <b>GUIAS DE APRENDIZAJE</B><hr>
 <li><a href="https://drive.google.com/file/d/11rW7SvwFMTOOEitF0ZGdnkeWDDh6WH1A/view?usp=share_link" targe="xxx">1. SELECCIONA LA MUESTRA PARA ANALITICA DE DATOS</a></li>
 <li><a href="https://drive.google.com/file/d/1_tQyWw96DumafWJ4EvPl7CaOvERY86eO/view?usp=share_link" targe="xxx">2. ESTADISTICA</a></li>
-<li><a class="a1" href="https://drive.google.com/file/d/1LaQabxzTFofB6fBY3hNsYCMUr6PodXdy/view?usp=sharing" targe="xxx">3. IDENTIFICAR DATOS RELEVANTES EN EL PROCESO DE ANALÍTICA DE DATOS</a></li>
-<li><a href="https://drive.google.com/file/d/1q7p6H6p0b2qGBzMiB01tSVIsbx7rAzJ_/view?usp=drive_link" targe="xxx">4. MANIPULAR LA HERRAMIENTA INFORMATICA SELECCIONADA</a></li>
+<li><a href="https://drive.google.com/file/d/1q7p6H6p0b2qGBzMiB01tSVIsbx7rAzJ_/view?usp=drive_link" targe="xxx">3. MANIPULAR LA HERRAMIENTA INFORMATICA SELECCIONADA</a></li>
+<li><a class="a1" href="https://drive.google.com/file/d/1LaQabxzTFofB6fBY3hNsYCMUr6PodXdy/view?usp=sharing" targe="xxx">4. IDENTIFICAR DATOS RELEVANTES EN EL PROCESO DE ANALÍTICA DE DATOS</a></li>
 <li><a href="https://drive.google.com/file/d/18ZZ6S_Bzv6fZ4Azpc1ADcv7cTnGYcLJN/view?usp=sharing" id="a1" targe="_blank">5. VALIDA LA DATA DE ACUERDO CON EL PROCESO ANÁLISIS DE EXPLORACIÓN DE DATOS*</a></li>
 <hr><b>TALLERES</B><hr>
 <li><a href="https://www.youtube.com/embed/YPofXmlFabg" targe="xxx">TECNICO EN PROGRAMACION PARA ANALITICA DE DATOS</a></li>
