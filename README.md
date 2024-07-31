@@ -20,6 +20,9 @@
 <li><a href="https://drive.google.com/file/d/1RuNb3ZfqE8HQ6R8_vXWLO5GuMVxuZ5xC/view" targe="xxx">ARREGLOS Y ESTRUCTURAS</a></li>
 <li><a href="https://drive.google.com/file/d/1eXRbJWvOsFc6Hr-Wmz4RwBHyDy-BdLP_/view?usp=drive_link" targe="xxx">TALLER COVID19</a></li>
 <li><a href="https://drive.google.com/file/d/14XIGBLMQ2f1WuDAAg-6ZugUelMykw1W2/view" targe="xxx">NUMPY</a></li>
+<li><a href="https://drive.google.com/file/d/1FQKxYA2ieLgeeBmOtj74EF8-JOx2Kixu/view?usp=drive_link" targe="xxx">TALLER R</a></li>
+
+
 <hr><b>DATASET<b><hr>
 <li><a href="https://www.google.com/url?q=https://www.datos.gov.co/Trabajo/PROGRAMACI-N-ESPEC-FICA-DE-CURSOS-LARGOS-ESPECIALE/vv8g-8u9u/data_preview&sa=D&source=calendar&usd=2&usg=AOvVaw3E0uOLwBwU1Nf8vjNaOriQ" targe="xxx">APRENDICES SENA</a></li>
 <li><a href="https://www.datos.gov.co/Funci-n-p-blica/Informaci-n-estad-stica-de-inmovilizaci-n-veh-culo/9ca5-mr3p/data_preview" targe="xxx">INMOVILIZADOS</a></li>
