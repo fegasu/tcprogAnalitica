@@ -1,1 +1,1 @@
-start chrome https://sourceforge.net/projects/pgsqlportable/files/latest/download
+start https://sourceforge.net/projects/pgsqlportable/files/latest/download
